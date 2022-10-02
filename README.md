@@ -35,7 +35,8 @@ Install Node js,npm,python and following software package
 ```bash
 sudo apt-get install nodejs
 sudo apt-get install npm
-sudo apt-get install python
+sudo apt update
+sudo apt-get install python3
 ```
 ## Docker and Docker Compose
 ```bash
