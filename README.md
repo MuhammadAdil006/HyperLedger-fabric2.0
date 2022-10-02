@@ -54,11 +54,14 @@ sudo apt-get install docker-compose
 ```
 ## Update nodejs and Golang
 ```bash
-wget https://dl.google.com/go/go1.13.x.linux-amd64.tar.gz\
-tar -xzvf go1.13.x.linux-amd64.tar.gzsuod mv go/ /usr/local
-export GOPATH=/usr/local/go
-export PATH=$PATH:$GOPATH/bin
-curl -sL https://deb.nodesource.com/setup_8.x |sudo bash -
+sudo apt-get install build-essential checkinstall libssl-de
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash
+curl -O https://dl.google.com/go/go1.17.1.linux-amd64.tar.gz
+
+curl -O https://dl.google.com/go/go1.17.1.linux-amd64.tar.gz
+tar -xvf go1.17.1.linux-amd64.tar.gz
+sudo mv go /usr/loca
+export GOROOT=/usr/local/go
 sudo apt-get install -y nodejs
 ```
 ## Verify Versions
