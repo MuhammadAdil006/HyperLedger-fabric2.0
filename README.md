@@ -109,4 +109,4 @@ export PATH=$PATH:/home/adil/Desktop/BLockchain/fabric-samples/bin
 
 ```
 
-![Screenshot](screenshot.png)
+![Screenshot](BasicNetworkStructure.png)
