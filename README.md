@@ -108,3 +108,5 @@ there will be path given like that copy path
 export PATH=$PATH:/home/adil/Desktop/BLockchain/fabric-samples/bin
 
 ```
+
+![Screenshot](screenshot.png)
