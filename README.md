@@ -78,12 +78,40 @@ node -v
 ```
 ## If you find docker error.[CLick here ](https://computingforgeeks.com/install-docker-and-docker-compose-on-kali-linux/)to resolve.
 
-## Install Samples,Binary and Docker Images
 
+## Install Samples,Binary and Docker Images
+make a folder and install testnet 
 
 
 ```bash
+mkdir testfolder
+cd testfolder
 curl -sSL https://bit.ly/2ysbOFE | bash -s
 
 
 ```
+
+## setting path of all bins in pathvariable
+(assuming currently in fabric smaple folder)
+
+```bash
+cd bin
+pwd
+
+
+```
+/home/adil/Desktop/BLockchain/fabric-samples/bin
+
+there will be path given like that copy path
+
+```bash
+vim ~/.bashrc
+
+```
+file will be opened 
+export PATH=$PATH:/home/adil/Desktop/BLockchain/fabric-samples/bin
+PLACE this line and save it 
+How to save:
+after inserting press esc
+then type :wq 
+it will be saved and exit
