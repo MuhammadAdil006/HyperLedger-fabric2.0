@@ -105,13 +105,6 @@ pwd
 there will be path given like that copy path
 
 ```bash
-vim ~/.bashrc
+export PATH=$PATH:/home/adil/Desktop/BLockchain/fabric-samples/bin
 
 ```
-file will be opened 
-export PATH=$PATH:/home/adil/Desktop/BLockchain/fabric-samples/bin
-PLACE this line and save it 
-How to save:
-after inserting press esc
-then type :wq 
-it will be saved and exit
